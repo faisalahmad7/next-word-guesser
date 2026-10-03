@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Trained artifacts (regenerate with `python -m next_word_guesser.train`)
+models/*
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
